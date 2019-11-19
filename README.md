@@ -21,3 +21,12 @@ Project pelatihan python dan github amcc desktop
 
 ## Kenapa pilih clone lewat ssh dari pada https ?
 karena kalau lewat https itu nanti diminta untuk login lagi ke github, namun jika menggunakan ssh tidak
+
+## Alasan menggunakan bahasa python
+Efektifitas Python cukup terbukti dengan banyaknya jumlah pengguna Bahasa ini. Berbagai survei memasukkan Python dalam top-3 sebagai bahasa dengan penggunaan terbanyak, bersaing dengan Java dan PHP. Python dapat digunakan dalam mengakomodasi berbagai gaya pemrograman, termasuk structured, prosedural, berorientasi-objek, maupun fungsional. Python juga dapat berjalan pada berbagai sistem operasi yang tersedia. Beberapa pemanfaatan bahasa Python di antaranya:
+
+Web development (server-side),
+Software development,
+Mathematics & data science,
+Machine learning,
+System scripting.
