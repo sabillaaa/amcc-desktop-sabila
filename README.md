@@ -32,5 +32,8 @@ Efektifitas Python cukup terbukti dengan banyaknya jumlah pengguna Bahasa ini. B
 5. System scripting.
 
 ## Memulai dengan Python
-1. Pastikan anda sudah mengisntal Python, dengan cara tulis "python --version" pada cmd/ git bash anda
-2. kalau belum ada, maka instal python terlebih dahulu
+Pastikan anda sudah mengisntal Python, dengan cara tulis "python --version" pada cmd/ git bash anda
+
+## Bagaimana jika python belum ter-instal ?
+Maka ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (Dengan syarat harus daftar akun dicoding terlebih dahulu)
+
