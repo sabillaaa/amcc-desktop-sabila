@@ -19,3 +19,5 @@ Project pelatihan python dan github amcc desktop
 6. lakukan 'git commit -am "nama pesannya"'
 7. pastikan sudah ter commit, lalu 'git push'
 
+## Kenapa pilih clone lewat ssh dari pada https ?
+karena kalau lewat https itu nanti diminta untuk login lagi ke github, namun jika menggunakan ssh tidak
