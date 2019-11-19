@@ -30,3 +30,7 @@ Efektifitas Python cukup terbukti dengan banyaknya jumlah pengguna Bahasa ini. B
 3. Mathematics & data science,
 4. Machine learning,
 5. System scripting.
+
+## Memulai dengan Python
+1. Pastikan anda sudah mengisntal Python, dengan cara tulis "python --version" pada cmd/ git bash anda
+2. kalau belum ada, maka instal python terlebih dahulu
