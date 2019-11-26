@@ -39,14 +39,14 @@ Maka ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/
 
 ## Hello World dengan python
 1. buat sebuah file baru dengan nama main.py, caranya seperti berikut
-'
+`
 nano main.py
-'
+`
 2. Jalankan file tersebut dengan cara
-'
+`
 python main.py
-'
+`
 3. Hasil output harusnya sesuai dengan inputannya, yaitu:
-'
+`
 Hello world
-'
+`
