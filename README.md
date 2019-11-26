@@ -42,7 +42,7 @@ Masuk ke direktori folder repository ini dengan cara:
 ```bash
 cd /path/nama-direktori
 ```
-catatan : 
+catatan : path disini merupakan nama-nama direktori diatas direktori repositori ini, seperti misalnya Document 
 1. buat sebuah file baru dengan nama main.py, caranya seperti berikut
 ```
 nano main.py
