@@ -37,5 +37,16 @@ Pastikan anda sudah mengisntal Python, dengan cara tulis "python --version" pada
 ## Bagaimana jika python belum ter-instal ?
 Maka ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (Dengan syarat harus daftar akun dicoding terlebih dahulu)
 
-## Bagaimana masuk ke interaktif python di cmd
-
+## Hello World dengan python
+1. buat sebuah file baru dengan nama main.py, caranya seperti berikut
+'
+nano main.py
+'
+2. Jalankan file tersebut dengan cara
+'
+python main.py
+'
+3. Hasil output harusnya sesuai dengan inputannya, yaitu:
+'
+Hello world
+'
