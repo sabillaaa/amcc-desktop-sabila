@@ -38,15 +38,24 @@ Pastikan anda sudah mengisntal Python, dengan cara tulis "python --version" pada
 Maka ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (Dengan syarat harus daftar akun dicoding terlebih dahulu)
 
 ## Hello World dengan python
+Masuk ke direktori folder repository ini dengan cara:
+```bash
+cd /path/nama-direktori
+```
+catatan : 
 1. buat sebuah file baru dengan nama main.py, caranya seperti berikut
-`
+```
 nano main.py
-`
-2. Jalankan file tersebut dengan cara
-`
+```
+2. Masukkan code berikut di dalam main.py
+```python
+print('Hello world')
+```
+3. Jalankan file tersebut dengan cara
+```bash
 python main.py
-`
-3. Hasil output harusnya sesuai dengan inputannya, yaitu:
-`
+```
+4. Hasil output harusnya sesuai dengan inputannya, yaitu:
+```
 Hello world
-`
+```
