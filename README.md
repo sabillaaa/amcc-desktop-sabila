@@ -37,3 +37,5 @@ Pastikan anda sudah mengisntal Python, dengan cara tulis "python --version" pada
 ## Bagaimana jika python belum ter-instal ?
 Maka ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (Dengan syarat harus daftar akun dicoding terlebih dahulu)
 
+## Bagaimana masuk ke interaktif python di cmd
+
