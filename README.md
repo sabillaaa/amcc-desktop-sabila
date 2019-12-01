@@ -42,7 +42,7 @@ Masuk ke direktori folder repository ini dengan cara:
 ```bash
 cd /path/nama-direktori
 ```
-catatan : path disini merupakan nama-nama direktori diatas direktori repositori ini, seperti misalnya Document 
+catatan : path disini merupakan nama-nama direktori diatas direktori repositori ini, seperti misalnya Document
 1. buat sebuah file baru dengan nama main.py, caranya seperti berikut
 ```
 nano main.py
@@ -58,4 +58,44 @@ python main.py
 4. Hasil output harusnya sesuai dengan inputannya, yaitu:
 ```
 Hello world
+```
+
+## Python Interpreter
+1. Python interpreter merupakan program yang dibaca & dieksekusi pada sebuah sesi pada command line. Untuk masuk ke python interpreter, caranya sebagai berikut :
+    -Buka CMD (windows) / Terminal (Linux/MacOS) >> Ketikkan 'Python'
+
+```Python
+PS C:\Users\Lenovo\Documents\Python\amcc-desktop-sabila>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+>>>
+
+```
+## Menggunakan Modul
+Modul merupakan set program yang sudah disediakan oleh python yang tinggal pakai, contohnya adalah seperti ini :
+
+```Python
+>>> import datetime
+>>> datetime.datetime.now()
+datetime.datetime(2019, 12, 1, 21, 39, 43, 673959)
+
+Untuk menampilkan tanggal dan jam pada saat ini. lalu selanjutnya, kita akan menggunakan modul 'random' untuk mengacak karakter alfabet seperti contoh code dibawah ini :
+```
+```Python
+>>> import random
+>>> import string
+>>> def randomword(length):
+...     letters = string.ascii_lowercase
+...     return ''.join(random.choice(letters) for i in range(length))
+...
+>>> randomword(10)
+'ogrpxncyyt'
+```
+Lalu kita bakal buat program untuk mengacak nama dari seluruh pelatih desktopbprogramming amcc dengan contoh kode berikut ini :
+```Python
+>>> def random_name():
+...     name = ('david', 'sabil', 'peby', 'angung', 'yanuar')
+...     return ''.join(random.choice(name) for i in range(1))
+...
+>>> random_name()
+'yanuar'
 ```
