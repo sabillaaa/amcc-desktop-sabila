@@ -99,3 +99,27 @@ Lalu kita bakal buat program untuk mengacak nama dari seluruh pelatih desktopbpr
 >>> random_name()
 'yanuar'
 ```
+##Menggunakan variabel
+Variabel adalah tempat menyimpan data pada kode program, lalu bagaimana menggunkan variabel dan menampilkan isi variabel pada python?
+
+```Python
+>>> import datetime
+>>> print ('Waktu sekarang',datetime.datetime.now())
+Waktu sekarang 2019-12-08 21:07:22.632088
+```
+
+```Python
+>>>"""Variabel"""
+>>> date = datetime.datetime.now()
+>>> print(date)
+2019-12-08 21:07:22.6380744
+```
+
+```python
+>>> """Mengabungkan integer & string"""
+'Mengabungkan integer & string'
+>>> number = 10
+>>> string = 'Sabil'
+>>> print(number, string)
+10 Sabil
+```
