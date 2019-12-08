@@ -112,7 +112,7 @@ Waktu sekarang 2019-12-08 21:07:22.632088
 >>>"""Variabel"""
 >>> date = datetime.datetime.now()
 >>> print(date)
-2019-12-08 21:07:22.6380744
+2019-12-08 21:07:22.638074
 ```
 
 ```python
