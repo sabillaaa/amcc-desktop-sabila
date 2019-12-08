@@ -100,7 +100,7 @@ Lalu kita bakal buat program untuk mengacak nama dari seluruh pelatih desktopbpr
 'yanuar'
 ```
 ## Menggunakan variabel
-Variabel adalah tempat menyimpan data pada kode program, lalu bagaimana menggunkan variabel dan menampilkan isi variabel pada python?
+Variabel adalah tempat menyimpan data pada kode program, lalu bagaimana menggunakan variabel dan menampilkan isi variabel pada python?
 
 ```Python
 >>> import datetime
