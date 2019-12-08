@@ -99,7 +99,7 @@ Lalu kita bakal buat program untuk mengacak nama dari seluruh pelatih desktopbpr
 >>> random_name()
 'yanuar'
 ```
-##Menggunakan variabel
+## Menggunakan variabel
 Variabel adalah tempat menyimpan data pada kode program, lalu bagaimana menggunkan variabel dan menampilkan isi variabel pada python?
 
 ```Python
