@@ -93,7 +93,7 @@ Untuk menampilkan tanggal dan jam pada saat ini. lalu selanjutnya, kita akan men
 Lalu kita bakal buat program untuk mengacak nama dari seluruh pelatih desktopbprogramming amcc dengan contoh kode berikut ini :
 ```Python
 >>> def random_name():
-...     name = ('david', 'sabil', 'peby', 'angung', 'yanuar')
+...     name = ('david', 'sabil', 'peby', 'agung', 'yanuar')
 ...     return ''.join(random.choice(name) for i in range(1))
 ...
 >>> random_name()
