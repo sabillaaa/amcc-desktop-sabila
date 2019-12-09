@@ -131,8 +131,68 @@ Output : 15 15 15.1
 Output : <class 'int'> <class 'str'> <class 'float'>
 ```
 
-## Menggunakan List
-List adalah tipe data yang paling serbaguna yang tersedia dalam bahasa Python, yang dapat ditulis sebagai daftar nilai yang dipisahkan koma (item) antara tanda kurung siku. Hal penting tentang daftar adalah item dalam list tidak boleh sama jenisnya. lalu bagaimana menggunakan list dan menampilkan isi list pada python?
+### Membuat List Python
+
+List adalah tipe data yang paling serbaguna yang tersedia dalam bahasa Python, yang dapat ditulis sebagai daftar nilai yang dipisahkan koma (item) antara tanda kurung siku. Hal penting tentang daftar adalah item dalam list tidak boleh sama jenisnya.
+
+Membuat list sangat sederhana, tinggal memasukkan berbagai nilai yang dipisahkan koma di antara tanda kurung siku. Dibawah ini adalah contoh sederhana pembuatan list dalam bahasa Python.
+
+```python
+#Contoh sederhana pembuatan list pada bahasa pemrograman python
+list1 = ['kimia', 'fisika', 1993, 2017]
+list2 = [1, 2, 3, 4, 5 ]
+list3 = ["a", "b", "c", "d"]
+```
+
+### Akses Nilai Dalam List Python
+
+Untuk mengakses nilai dalam list python, gunakan tanda kurung siku untuk mengiris beserta indeks atau indeks untuk mendapatkan nilai yang tersedia pada indeks tersebut.
+
+Berikut adalah contoh cara mengakses nilai di dalam list python :
+
+
+```python
+#Cara mengakses nilai di dalam list Python
+
+list1 = ['fisika', 'kimia', 1993, 2017]
+list2 = [1, 2, 3, 4, 5, 6, 7 ]
+
+print ("list1[0]: ", list1[0])
+print ("list2[1:5]: ", list2[1:5])
+```
+
+Setelah Anda mengeksekusi kode diatas, hasilnya akan seperti dibawah ini :
+
+`list1[0]: fisika`
+`list2[1:5]: [2, 3, 4, 5]`
+
+### Update Nilai Dalam List Python
+
+Anda dapat memperbarui satu atau beberapa nilai di dalam list dengan memberikan potongan di sisi kiri operator penugasan, dan Anda dapat menambahkan nilai ke dalam list dengan metode append (). Sebagai contoh :
+
+
+```python
+list = ['fisika', 'kimia', 1993, 2017]
+print ("Nilai ada pada index 2 : ", list[2])
+
+list[2] = 2001
+print ("Nilai baru ada pada index 2 : ", list[2])
+```
+
+### Hapus Nilai Dalam List Python
+
+Untuk menghapus nilai di dalam list python, Anda dapat menggunakan salah satu pernyataan del jika Anda tahu persis elemen yang Anda hapus. Anda dapat menggunakan metode remove() jika Anda tidak tahu persis item mana yang akan dihapus. Sebagai contoh :
+
+```python
+#Contoh cara menghapus nilai pada list python
+
+list = ['fisika', 'kimia', 1993, 2017]
+
+print (list)
+del list[2]
+print ("Setelah dihapus nilai pada index 2 : ", list)
+```
+
 ```python
 >>> print(list(range(1,10)))
 Output : [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -169,6 +229,59 @@ Output : dict_values([8.0, 7.0, 9.0])
 >>> print(student.keys())
 Output : dict_keys(['sabil', 'yanuar', 'peby'])
 ```
+### Operasi Dasar Pada List Python
+
+List Python merespons operator + dan * seperti string; Itu artinya penggabungan dan pengulangan di sini juga berlaku, kecuali hasilnya adalah list baru, bukan sebuah String.
+
+Sebenarnya, list merespons semua operasi urutan umum yang kami gunakan pada String di bab sebelumnya. Dibawah ini adalah tabel daftar operasi dasar pada list python.
+
+| Python Expression	| Hasil		| Penjelasan	| 
+| --- | --- | --- |
+| `len([1, 2, 3, 4])`		| `4`	| Length	| 
+| `[1, 2, 3] + [4, 5, 6]`	| 	`[1, 2, 3, 4, 5, 6]`	| 	Concatenation	| 
+| `['Halo!'] * 4`		| `['Halo!', 'Halo!', 'Halo!', 'Halo!']`	| 	Repetition	| 
+| `2 in [1, 2, 3]`	| `	True`	| 	Membership	| 
+| `for x in [1,2,3] : print (x,end = ' ')`	| 	`1 2 3`		| Iteration	| 
+
+### Indexing, Slicing dan Matrix Pada List Python
+
+Karena list adalah urutan, pengindeksan dan pengiris bekerja dengan cara yang sama untuk list seperti yang mereka lakukan untuk String.
+
+Dengan asumsi input berikut :
+
+`L = ['C++'', 'Java', 'Python']`
+
+ | Python Expression | 	Hasil | 	Penjelasan | 
+ | --- | --- | --- | 
+ | `L[2]`	 | `'Python'` | 	Offset mulai dari nol | 
+ | `L[-2]` | 	`'Java'` | 	Negatif: hitung dari kanan | 
+ | `[1:]`	 | `['Java', 'Python']` | 	Slicing mengambil bagian | 
+ 
+### Method dan Fungsi Build-in Pada List Python
+
+Python menyertakan fungsi built-in sebagai berikut :
+
+| Python Function | 	Penjelasan | 
+| --- | --- |
+| cmp(list1, list2)	# |  Tidak lagi tersedia dengan Python 3 | 
+| len(list)	 | Memberikan total panjang list. | 
+| max(list)	 | Mengembalikan item dari list dengan nilai maks. | 
+| min(list)	 | Mengembalikan item dari list dengan nilai min. | 
+| list(seq)	 | Mengubah tuple menjadi list. | 
+
+Python menyertakan methods built-in sebagai berikut
+
+ | Python Methods | 	Penjelasan | 
+ | --- | --- | 
+ | list.append(obj)	 | Menambahkan objek obj ke list | 
+ | list.count(obj) | 	Jumlah pengembalian berapa kali obj terjadi dalam list | 
+ | list.extend(seq) | 	Tambahkan isi seq ke list | 
+ | list.index(obj) | 	Mengembalikan indeks terendah dalam list yang muncul obj | 
+ | list.insert(index, obj)	 | Sisipkan objek obj ke dalam list di indeks offset | 
+ | list.pop(obj = list[-1])	 | Menghapus dan mengembalikan objek atau obj terakhir dari list | 
+ | list.remove(obj) | 	Removes object obj from list | 
+ | list.reverse() | 	Membalik list objek di tempat | 
+ | list.sort([func])	 | Urutkan objek list, gunakan compare func jika diberikan | 
 
 ## Loop
 Secara umum, pernyataan pada bahasa pemrograman akan dieksekusi secara berurutan. Pernyataan pertama dalam sebuah fungsi dijalankan pertama, diikuti oleh yang kedua, dan seterusnya. Tetapi akan ada situasi dimana Anda harus menulis banyak kode, dimana kode tersebut sangat banyak. Jika dilakukan secara manual maka Anda hanya akan membuang-buang tenaga dengan menulis beratus-ratus bahkan beribu-ribu kode. Untuk itu Anda perlu menggunakan pengulangan di dalam bahasa pemrograman Python.
@@ -335,9 +448,9 @@ String adalah jenis yang paling populer di bahasa pemrograman. Kita bisa membuat
 
 Dibawah ini adalah contoh sederhana dari sebuah string pada bahasa pemrograman Python.
 
-{% highlight python %}
+```python
 print("Hello World")
-{% endhighlight %}
+```
 
 ### Mengakses Nilai dalam String
 
@@ -345,11 +458,11 @@ Python tidak menggunakan tipe karakter titik koma ; Ini diperlakukan sebagai str
 
 Untuk mengakses substring, gunakan tanda kurung siku untuk mengiris beserta indeks atau indeks untuk mendapatkan substring Anda. Sebagai contoh : 
 
-{% highlight python %}
+```python
 name = 'John Doe' message = "John Doe belajar bahasa python di Belajarpython"
 print ("name[0]: ", name[0])
 print ("message[1:4]: ", message[1:4])
-{% endhighlight %}
+```
 
 Bila kode diatas dieksekusi, maka akan menghasilkan hasil sebagai berikut :
 
@@ -361,10 +474,10 @@ Bila kode diatas dieksekusi, maka akan menghasilkan hasil sebagai berikut :
 
 Anda dapat "memperbarui" string yang ada dengan (kembali) menugaskan variabel ke string lain. Nilai baru dapat dikaitkan dengan nilai sebelumnya atau ke string yang sama sekali berbeda sama sekali. Sebagai contoh
 
-{% highlight python %}
+```python
 message = 'Hello World'
 print ("Updated String :- ", message[:6] + 'Python')
-{% endhighlight %}
+```
 
 Bila kode diatas dieksekusi, maka akan menghasilkan hasil sebagai berikut :
 
@@ -441,7 +554,7 @@ Python triple quotes digunakan dengan membiarkan string untuk ditulis dalam bebe
 Sintaks untuk triple quotes terdiri dari tiga tanda kutip tunggal atau ganda ditulis berturut-turut :
 Berikut adalah contohnya : 
 
-{% highlight python %}
+```python
 kutipantiga = """this is a long string that is made up of
 several lines and non-printable characters such as
 TAB ( \t ) and they will show up that way when displayed.
@@ -450,7 +563,7 @@ this within the brackets [ \n ], or just a NEWLINE within
 the variable assignment will also show up.
 """
 print (kutipantiga)
-{% endhighlight %}
+```
 
 ### String Unicode Python
 
