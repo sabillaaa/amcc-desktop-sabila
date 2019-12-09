@@ -131,7 +131,7 @@ Output : 15 15 15.1
 Output : <class 'int'> <class 'str'> <class 'float'>
 ```
 
-### Membuat List Python
+#### Membuat List Python
 
 List adalah tipe data yang paling serbaguna yang tersedia dalam bahasa Python, yang dapat ditulis sebagai daftar nilai yang dipisahkan koma (item) antara tanda kurung siku. Hal penting tentang daftar adalah item dalam list tidak boleh sama jenisnya.
 
@@ -144,7 +144,7 @@ list2 = [1, 2, 3, 4, 5 ]
 list3 = ["a", "b", "c", "d"]
 ```
 
-### Akses Nilai Dalam List Python
+#### Akses Nilai Dalam List Python
 
 Untuk mengakses nilai dalam list python, gunakan tanda kurung siku untuk mengiris beserta indeks atau indeks untuk mendapatkan nilai yang tersedia pada indeks tersebut.
 
@@ -166,7 +166,7 @@ Setelah Anda mengeksekusi kode diatas, hasilnya akan seperti dibawah ini :
 `list1[0]: fisika`
 `list2[1:5]: [2, 3, 4, 5]`
 
-### Update Nilai Dalam List Python
+#### Update Nilai Dalam List Python
 
 Anda dapat memperbarui satu atau beberapa nilai di dalam list dengan memberikan potongan di sisi kiri operator penugasan, dan Anda dapat menambahkan nilai ke dalam list dengan metode append (). Sebagai contoh :
 
@@ -179,7 +179,7 @@ list[2] = 2001
 print ("Nilai baru ada pada index 2 : ", list[2])
 ```
 
-### Hapus Nilai Dalam List Python
+#### Hapus Nilai Dalam List Python
 
 Untuk menghapus nilai di dalam list python, Anda dapat menggunakan salah satu pernyataan del jika Anda tahu persis elemen yang Anda hapus. Anda dapat menggunakan metode remove() jika Anda tidak tahu persis item mana yang akan dihapus. Sebagai contoh :
 
@@ -229,7 +229,7 @@ Output : dict_values([8.0, 7.0, 9.0])
 >>> print(student.keys())
 Output : dict_keys(['sabil', 'yanuar', 'peby'])
 ```
-### Operasi Dasar Pada List Python
+#### Operasi Dasar Pada List Python
 
 List Python merespons operator + dan * seperti string; Itu artinya penggabungan dan pengulangan di sini juga berlaku, kecuali hasilnya adalah list baru, bukan sebuah String.
 
@@ -243,7 +243,7 @@ Sebenarnya, list merespons semua operasi urutan umum yang kami gunakan pada Stri
 | `2 in [1, 2, 3]`	| `	True`	| 	Membership	| 
 | `for x in [1,2,3] : print (x,end = ' ')`	| 	`1 2 3`		| Iteration	| 
 
-### Indexing, Slicing dan Matrix Pada List Python
+#### Indexing, Slicing dan Matrix Pada List Python
 
 Karena list adalah urutan, pengindeksan dan pengiris bekerja dengan cara yang sama untuk list seperti yang mereka lakukan untuk String.
 
@@ -257,7 +257,7 @@ Dengan asumsi input berikut :
  | `L[-2]` | 	`'Java'` | 	Negatif: hitung dari kanan | 
  | `[1:]`	 | `['Java', 'Python']` | 	Slicing mengambil bagian | 
  
-### Method dan Fungsi Build-in Pada List Python
+#### Method dan Fungsi Build-in Pada List Python
 
 Python menyertakan fungsi built-in sebagai berikut :
 
@@ -291,7 +291,7 @@ Di dalam bahasa pemrograman Python pengulangan dibagi menjadi 3 bagian, yaitu :
 - For Loop
 - Nested Loop
 
-### While Loop
+#### While Loop
 Pengulangan While Loop di dalam bahasa pemrograman Python dieksesusi statement berkali-kali selama kondisi bernilai benar atau `True`.
 
 Dibawah ini adalah contoh penggunaan pengulangan While Loop.
@@ -308,7 +308,7 @@ while (count < 9):
 print ("Good bye!")
 ```
 
-### For Loop
+#### For Loop
 Pengulangan `for` pada Python memiliki kemampuan untuk mengulangi item dari urutan apapun, seperti `list` atau `string`.
 
 Dibawah ini adalah contoh penggunaan pengulangan For Loop.
@@ -326,7 +326,7 @@ for makanan in buah:
     print "Saya suka makan", makanan
 ```
     
-### Nested Loop
+#### Nested Loop
 Bahasa pemrograman Python memungkinkan penggunaan satu lingkaran di dalam loop lain. Bagian berikut menunjukkan beberapa contoh untuk menggambarkan konsep tersebut. 
 
 Dibawah ini adalah contoh penggunaan Nested Loop.
@@ -369,7 +369,7 @@ Berikut ini adalah beberapa contoh dari Tipe data Number pada Python :
 | 0x56 |	60.2-E13 |	4.31e-4j |
 
 
-### Konversi Tipe Data Number Python
+#### Konversi Tipe Data Number Python
 Pada Python Anda bisa mengkonversi tipe data dengan menggunakan fungsi. Dibawah ini adalah beberapa fungsi untuk mengkonversi tipe data number Python. 
 - `int(x)`
 untuk meng-konversi x menjadi plain integer.
@@ -383,7 +383,7 @@ untuk meng-konversi x menjadi complex number dengna real part x dan imaginary pa
 untuk meng-konversi x dan y menjadi complex number dengan real part x dan imaginary part y. x dan numeric expressions y. 
 
 
-### Fungsi Matematika Python
+#### Fungsi Matematika Python
 Pada bahasa pemrograman Python terdapat fungsi untuk melakukan perhitungan matematis, berikut adalah daftarnya :
 
 | Nama |	Penggunaan |	Penjelasan |
@@ -405,7 +405,7 @@ Pada bahasa pemrograman Python terdapat fungsi untuk melakukan perhitungan matem
 | Akar Kuadrat |	`sqrt(x)` |	Akar kuadrat x untuk x> 0. |
 
 
-### Fungsi Nomor Acak Python
+#### Fungsi Nomor Acak Python
 Nomor acak digunakan untuk aplikasi permainan, simulasi, pengujian, keamanan, dan privasi. Python mencakup fungsi berikut yang umum digunakan. Berikut adalah daftarnya :
 
 | Nama | 	Penggunaan | 	Penjelasan | 
@@ -419,7 +419,7 @@ Nomor acak digunakan untuk aplikasi permainan, simulasi, pengujian, keamanan, da
 | Uniform| 	`uniform(x, y)` | 	Sebuah float acak r, sedemikian rupa sehingga x kurang dari atau sama dengan r dan r kurang dari y. | 
 
 
-### Fungsi Trigonometri Python
+#### Fungsi Trigonometri Python
 Python mencakup fungsi berikut yang melakukan perhitungan trigonometri. Berikut adalah daftarnya :
 
 | Nama |	Penggunaan	Penjelasan |
@@ -435,7 +435,7 @@ Python mencakup fungsi berikut yang melakukan perhitungan trigonometri. Berikut 
 | Derajat |	`degrees(x)` |	Mengonversi sudut x dari radian ke derajat. |
 | Radian |	`radians(x)` |	Mengonversi sudut x dari derajat ke radian. |
 
-### Konstanta Matematika Python
+#### Konstanta Matematika Python
 Modul ini juga mendefinisikan dua konstanta matematika. Berikut adalah daftarnya :
 
 | Nama |	Penggunaan	| Penjelasan| 
@@ -452,7 +452,7 @@ Dibawah ini adalah contoh sederhana dari sebuah string pada bahasa pemrograman P
 print("Hello World")
 ```
 
-### Mengakses Nilai dalam String
+#### Mengakses Nilai dalam String
 
 Python tidak menggunakan tipe karakter titik koma ; Ini diperlakukan sebagai string dengan panjang satu, sehingga juga dianggap sebagai substring.
 
@@ -470,7 +470,7 @@ Bila kode diatas dieksekusi, maka akan menghasilkan hasil sebagai berikut :
 `message[1:4]: ohn `
 
 
-### Mengupdate String
+#### Mengupdate String
 
 Anda dapat "memperbarui" string yang ada dengan (kembali) menugaskan variabel ke string lain. Nilai baru dapat dikaitkan dengan nilai sebelumnya atau ke string yang sama sekali berbeda sama sekali. Sebagai contoh
 
@@ -483,7 +483,7 @@ Bila kode diatas dieksekusi, maka akan menghasilkan hasil sebagai berikut :
 
 `Updated String :- Hello Python`
 
-### Escape Characters / Karakter Escape Python
+#### Escape Characters / Karakter Escape Python
 
 Dibawah ini adalah tabel dari daftar karakter escape atau karakter non-printable yang dapat diwakili/ditulis dengan awalan notasi backslash.
 
@@ -506,7 +506,7 @@ Dibawah ini adalah tabel dari daftar karakter escape atau karakter non-printable
 | \xnn	 |   | 	Notasi Hexadecimal, dimana n berada di range 0.9, a.f, atau A.F |
 
 
-### Operator Spesial String Python
+#### Operator Spesial String Python
 
 Asumsikan variabel string adalah 'Belajar' dan variabel b adalah 'Python', lalu dibawah ini adalah operator yang bisa dipakai pada kedua string di variabel tersebut. `a = "Belajar"` `b = "Python"`
 
@@ -524,7 +524,7 @@ Berikut adalah daftar operator spesial string pada Python :
 | r/R | 	print r'\n' prints \n dan print R'\n'prints \n	Raw String -  | Menekan arti aktual karakter Escape. Sintaks untuk string mentah sama persis dengan string biasa kecuali operator string mentah, huruf "r", yang mendahului tanda petik. "R" bisa berupa huruf kecil (r) atau huruf besar (R) dan harus ditempatkan tepat sebelum tanda kutip pertama. | 
 | %	 |  | 	Format - Melakukan format String | 
 
-### Operator Format String Python
+#### Operator Format String Python
 
 Salah satu fitur Python yang paling keren adalah format string operator %. Operator ini unik untuk string dan membuat paket memiliki fungsi dari keluarga printf C () C. 
 berikut adalah contoh sederhananya : `print ("My name is %s and weight is %d kg!" % ('Zara', 21)) `
@@ -548,7 +548,7 @@ Berikut adalah daftar lengkap simbol yang bisa digunakan bersamaan dengan % :
 | %g | 	Yang lebih pendek dari% f dan% e | 
 | %G | 	Lebih pendek dari% f dan% E | 
 
-### Triple Quote Python
+#### Triple Quote Python
 
 Python triple quotes digunakan dengan membiarkan string untuk ditulis dalam beberapa baris, termasuk kata kerja NEWLINEs, TABs, dan karakter khusus lainnya. 
 Sintaks untuk triple quotes terdiri dari tiga tanda kutip tunggal atau ganda ditulis berturut-turut :
@@ -565,7 +565,7 @@ the variable assignment will also show up.
 print (kutipantiga)
 ```
 
-### String Unicode Python
+#### String Unicode Python
 
 Pada Python 3, semua string diwakili dalam Unicode. Sedangkan pada Python 2 disimpan secara internal sebagai 8-bit ASCII, maka diperlukanlampiran 'u' untuk membuatnya menjadi Unicode. Tetapi hal ini tidak lagi diperlukan sekarang. :
 
@@ -615,3 +615,113 @@ Python menyertakan metode built-in berikut untuk memanipulasi string
 | `upper()`	 | 	Mengonversi huruf kecil dalam bentuk string ke huruf besar. | 
 | `zfill (width)`	 | 	Mengembalikan string asli yang tertinggal dengan angka nol ke total karakter lebar; Dimaksudkan untuk angka, zfill () mempertahankan tanda apapun yang diberikan (kurang satu nol). | 
 | `isdecimal()`	 | 	Mengembalikan nilai true jika string unicode hanya berisi karakter desimal dan false sebaliknya. | 
+
+## Menggunakan Tuple
+Sebuah tupel adalah urutan objek Python yang tidak berubah. Tupel adalah urutan, seperti daftar. Perbedaan utama antara tupel dan daftarnya adalah bahwa tupel tidak dapat diubah tidak seperti List Python. Tupel menggunakan tanda kurung, sedangkan List Python menggunakan tanda kurung siku.
+
+Membuat tuple semudah memasukkan nilai-nilai yang dipisahkan koma. Secara opsional, Anda dapat memasukkan nilai-nilai yang dipisahkan koma ini di antara tanda kurung juga. Sebagai contoh : 
+
+```python
+#Contoh sederhana pembuatan tuple pada bahasa pemrograman python
+
+tup1 = ('fisika', 'kimia', 1993, 2017)
+tup2 = (1, 2, 3, 4, 5 )
+tup3 = "a", "b", "c", "d"
+```
+
+Tupel kosong ditulis sebagai dua tanda kurung yang tidak berisi apa-apa, contohnya : tup1 = ();
+Untuk menulis tupel yang berisi satu nilai, Anda harus memasukkan koma, meskipun hanya ada satu nilai, contohnya : tup1 = (50,)
+Seperti indeks String, indeks tuple mulai dari 0, dan mereka dapat diiris, digabungkan, dan seterusnya
+
+#### Akses Nilai Dalam Tuple Python
+
+Untuk mengakses nilai dalam tupel, gunakan tanda kurung siku untuk mengiris beserta indeks atau indeks untuk mendapatkan nilai yang tersedia pada indeks tersebut. Sebagai contoh :
+
+```python
+#Cara mengakses nilai tuple
+
+tup1 = ('fisika', 'kimia', 1993, 2017)
+tup2 = (1, 2, 3, 4, 5, 6, 7 )
+
+print ("tup1[0]: ", tup1[0])
+print ("tup2[1:5]: ", tup2[1:5])
+```
+
+Setelah Anda mengeksekusi kode diatas, hasilnya akan seperti dibawah ini :
+
+`tup1[0]: fisika`
+`tup2[1:5]: (2, 3, 4, 5)`
+
+#### Update Nilai Dalam Tuple Python
+
+Tuple tidak berubah, yang berarti Anda tidak dapat memperbarui atau mengubah nilai elemen tupel. Anda dapat mengambil bagian dari tupel yang ada untuk membuat tupel baru seperti ditunjukkan oleh contoh berikut.
+
+
+```python
+tup1 = (12, 34.56)
+tup2 = ('abc', 'xyz')
+
+# Aksi seperti dibawah ini tidak bisa dilakukan pada tuple python
+# Karena memang nilai pada tuple python tidak bisa diubah
+# tup1[0] = 100;
+
+# Jadi, buatlah tuple baru sebagai berikut
+tup3 = tup1 + tup2
+print (tup3)
+```
+
+#### Hapus Nilai Dalam Tuple Python
+
+Menghapus elemen tuple individual tidak mungkin dilakukan. Tentu saja, tidak ada yang salah dengan menggabungkan tupel lain dengan unsur-unsur yang tidak diinginkan dibuang.
+
+Untuk secara eksplisit menghapus keseluruhan tuple, cukup gunakan del statement. Sebagai contoh
+
+
+```python
+tup = ('fisika', 'kimia', 1993, 2017);
+
+print (tup)
+del tup;
+print "Setelah menghapus tuple : "
+print tup
+```
+
+
+#### Operasi Dasar Pada Tuple Python
+
+Tupel merespons operator + dan * sama seperti String; Mereka berarti penggabungan dan pengulangan di sini juga berlaku, kecuali hasilnya adalah tupel baru, bukan string.
+
+Sebenarnya, Tuple merespons semua operasi urutan umum yang kami gunakan pada String di bab sebelumnya. Dibawah ini adalah tabel daftar operasi dasar pada Tuple python
+
+
+| Python Expression	 | Hasil | 	Penjelasan | 
+| --- | --- | --- | 
+| len((1, 2, 3)) | 	3 | 	Length | 
+| (1, 2, 3) + (4, 5, 6) | 	(1, 2, 3, 4, 5, 6) | 	Concatenation | 
+| ('Halo!',) * 4 | 	('Halo!', 'Halo!', 'Halo!', 'Halo!') | 	Repetition | 
+| 3 in (1, 2, 3) | 	True | 	Membership | 
+| for x in (1,2,3) : print (x, end = ' ') | 	1 2 3 | 	Iteration | 
+
+#### Indexing, Slicing dan Matrix Pada Tuple Python
+
+Karena tupel adalah urutan, pengindeksan dan pengiris bekerja dengan cara yang sama untuk tupel seperti pada String, dengan asumsi masukan berikut
+
+Dengan asumsi input berikut : `T = ('C++', 'Java', 'Python')`
+
+ | Python Expression | 	Hasil | 	Penjelasan |
+ | --- | --- | --- |
+ | `T[2]` | 	`'Python'` | 	Offset mulai dari nol | 
+ | `T[-2]` | 	`'Java'`	 | Negatif: hitung dari kanan | 
+ | `T[1:]` | 	`('Java', 'Python')` | 	Slicing mengambil bagian | 
+
+#### Fungsi Build-in Pada Tuple Python
+
+Python menyertakan fungsi built-in sebagai berikut
+
+| Python Function |	Penjelasan |	
+| --- | --- |
+| `cmp(tuple1, tuple2)` |		# Tidak lagi tersedia dengan Python 3 |	
+| `len(tuple)` |		Memberikan total panjang tuple. |	
+| `max(tuple)` |		Mengembalikan item dari tuple dengan nilai maks. |	
+| `min(tuple)` |		Mengembalikan item dari tuple dengan nilai min. |	
+| `tuple(seq)` |		Mengubah tuple menjadi tuple. |	
