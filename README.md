@@ -514,7 +514,7 @@ Asumsikan variabel string adalah 'Belajar' dan variabel b adalah 'Python', lalu 
 Berikut adalah daftar operator spesial string pada Python : 
 
 | Operator | 	Contoh	Penjelasan | 
-| --- | --- | --- |
+
 | + | 	a + b  | akan menghasilkan BelajarPython	Concatenation - Menambahkan nilai pada kedua sisi operator | 
 | * | 	a*2  | akan menghasilkan BelajarBelajar	Pengulangan - Membuat string baru, menggabungkan beberapa salinan dari string yang sama | 
 | [] | 	a[1]  | akan menghasilkan e	Slice - Memberikan karakter dari indeks yang diberikan | 
