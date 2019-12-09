@@ -49,15 +49,12 @@ nano main.py
 ```
 2. Masukkan code berikut di dalam main.py
 ```python
-print('Hello world')
+>>>print('Hello world')
+Output : Hello world
 ```
 3. Jalankan file tersebut dengan cara
 ```bash
 python main.py
-```
-4. Hasil output harusnya sesuai dengan inputannya, yaitu:
-```
-Hello world
 ```
 
 ## Python Interpreter
@@ -76,7 +73,7 @@ Modul merupakan set program yang sudah disediakan oleh python yang tinggal pakai
 ```Python
 >>> import datetime
 >>> datetime.datetime.now()
-datetime.datetime(2019, 12, 1, 21, 39, 43, 673959)
+Output : datetime.datetime(2019, 12, 1, 21, 39, 43, 673959)
 
 Untuk menampilkan tanggal dan jam pada saat ini. lalu selanjutnya, kita akan menggunakan modul 'random' untuk mengacak karakter alfabet seperti contoh code dibawah ini :
 ```
@@ -88,7 +85,7 @@ Untuk menampilkan tanggal dan jam pada saat ini. lalu selanjutnya, kita akan men
 ...     return ''.join(random.choice(letters) for i in range(length))
 ...
 >>> randomword(10)
-'ogrpxncyyt'
+Output : 'ogrpxncyyt'
 ```
 Lalu kita bakal buat program untuk mengacak nama dari seluruh pelatih desktopbprogramming amcc dengan contoh kode berikut ini :
 ```Python
@@ -97,7 +94,7 @@ Lalu kita bakal buat program untuk mengacak nama dari seluruh pelatih desktopbpr
 ...     return ''.join(random.choice(name) for i in range(1))
 ...
 >>> random_name()
-'yanuar'
+Output : 'yanuar'
 ```
 ## Menggunakan variabel
 Variabel adalah tempat menyimpan data pada kode program, lalu bagaimana menggunakan variabel dan menampilkan isi variabel pada python?
@@ -105,14 +102,14 @@ Variabel adalah tempat menyimpan data pada kode program, lalu bagaimana mengguna
 ```Python
 >>> import datetime
 >>> print ('Waktu sekarang',datetime.datetime.now())
-Waktu sekarang 2019-12-08 21:07:22.632088
+Output : Waktu sekarang 2019-12-08 21:07:22.632088
 ```
 
 ```Python
 >>>"""Variabel"""
 >>> date = datetime.datetime.now()
 >>> print(date)
-2019-12-08 21:07:22.638074
+Output : 2019-12-08 21:07:22.638074
 ```
 
 ```python
@@ -121,5 +118,56 @@ Waktu sekarang 2019-12-08 21:07:22.632088
 >>> number = 10
 >>> string = 'Sabil'
 >>> print(number, string)
-10 Sabil
+Output : 10 Sabil
+```
+#### Simple Type
+```python
+>>> x = 15
+>>> y = '15'
+>>> z = 15.1
+>>> sum1 = x+x
+>>> sum2 = y+y
+>>> sum3 = z+z
+>>> print(x,y,z)
+Output : 15 15 15.1
+>>> print(type(x),type(y),type(z))
+Output : <class 'int'> <class 'str'> <class 'float'>
+```
+
+```python
+'List'
+>>> print(list(range(1,10)))
+Output : [1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> print(list(range(1,10,2)))
+Output : [1, 3, 5, 7, 9]
+```
+
+```python
+'Menjumlahkan nilai didalam list'
+>>> student_grades = [4,12.1,6,9]
+>>> mysum = sum(student_grades)
+>>> print(mysum)
+Output : 31.1
+```
+
+```python
+'Panjang nilai didalam list'
+>>> length = len(student_grades)
+>>> print(length)
+Output : 4
+>>> mean = mysum/length
+>>> print(mean)
+Output : 7.775
+```
+
+```python
+'Mencari jumlah nilai dalam list'
+>>> student_grades = [9.1, 8.8, 10.0, 7.7, 6.8, 8.0, 10.0, 8.1, 10.0, 9.9]
+>>> print(student_grades.count(10.0))
+Output : 3
+>>> student = {'sabil':8.0, 'yanuar':7.0,'peby':9.0}
+>>> print(student.values())
+Output : dict_values([8.0, 7.0, 9.0])
+>>> print(student.keys())
+Output : dict_keys(['sabil', 'yanuar', 'peby'])
 ```
