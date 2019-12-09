@@ -183,7 +183,7 @@ Pengulangan While Loop di dalam bahasa pemrograman Python dieksesusi statement b
 Dibawah ini adalah contoh penggunaan pengulangan While Loop.
 
 
-{% highlight python %}
+```python
 #Contoh penggunaan While Loop
 
 count = 0
@@ -192,31 +192,32 @@ while (count < 9):
     count = count + 1
 
 print ("Good bye!")
-{% endhighlight %}
+```
 
 ### For Loop
 Pengulangan `for` pada Python memiliki kemampuan untuk mengulangi item dari urutan apapun, seperti `list` atau `string`.
 
 Dibawah ini adalah contoh penggunaan pengulangan For Loop.
 
-{% highlight python %}
+```python
 #Contoh pengulangan for sederhana
 angka = [1,2,3,4,5]
 for x in angka:
     print(x)
-
+```
+```python
 #Contoh pengulangan for
 buah = ["nanas", "apel", "jeruk"]
 for makanan in buah:
     print "Saya suka makan", makanan
-{% endhighlight %}
+```
     
 ### Nested Loop
 Bahasa pemrograman Python memungkinkan penggunaan satu lingkaran di dalam loop lain. Bagian berikut menunjukkan beberapa contoh untuk menggambarkan konsep tersebut. 
 
 Dibawah ini adalah contoh penggunaan Nested Loop.
 
-{% highlight python %}
+```python
 #Contoh penggunaan Nested Loop
 
 i = 2
@@ -229,4 +230,4 @@ while(i < 100):
     i = i + 1
 
 print "Good bye!"
-{% endhighlight %}
+```
