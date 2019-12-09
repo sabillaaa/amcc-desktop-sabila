@@ -106,15 +106,12 @@ Output : Waktu sekarang 2019-12-08 21:07:22.632088
 ```
 
 ```Python
->>>"""Variabel"""
 >>> date = datetime.datetime.now()
 >>> print(date)
 Output : 2019-12-08 21:07:22.638074
 ```
-
+#### Mengabungkan integer & string
 ```python
->>> """Mengabungkan integer & string"""
-'Mengabungkan integer & string'
 >>> number = 10
 >>> string = 'Sabil'
 >>> print(number, string)
@@ -133,26 +130,26 @@ Output : 15 15 15.1
 >>> print(type(x),type(y),type(z))
 Output : <class 'int'> <class 'str'> <class 'float'>
 ```
+
 ## Menggunakan List
 List adalah tipe data yang paling serbaguna yang tersedia dalam bahasa Python, yang dapat ditulis sebagai daftar nilai yang dipisahkan koma (item) antara tanda kurung siku. Hal penting tentang daftar adalah item dalam list tidak boleh sama jenisnya. lalu bagaimana menggunakan list dan menampilkan isi list pada python?
 ```python
-'List'
 >>> print(list(range(1,10)))
 Output : [1, 2, 3, 4, 5, 6, 7, 8, 9]
 >>> print(list(range(1,10,2)))
 Output : [1, 3, 5, 7, 9]
 ```
 
+#### Menjumlahkan nilai didalam list
 ```python
-'Menjumlahkan nilai didalam list'
 >>> student_grades = [4,12.1,6,9]
 >>> mysum = sum(student_grades)
 >>> print(mysum)
 Output : 31.1
 ```
 
+#### Panjang nilai didalam list
 ```python
-'Panjang nilai didalam list'
 >>> length = len(student_grades)
 >>> print(length)
 Output : 4
@@ -161,8 +158,8 @@ Output : 4
 Output : 7.775
 ```
 
+#### Mencari jumlah nilai dalam list
 ```python
-'Mencari jumlah nilai dalam list'
 >>> student_grades = [9.1, 8.8, 10.0, 7.7, 6.8, 8.0, 10.0, 8.1, 10.0, 9.9]
 >>> print(student_grades.count(10.0))
 Output : 3
