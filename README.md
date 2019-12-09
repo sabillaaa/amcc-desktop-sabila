@@ -133,7 +133,8 @@ Output : 15 15 15.1
 >>> print(type(x),type(y),type(z))
 Output : <class 'int'> <class 'str'> <class 'float'>
 ```
-
+## Menggunakan List
+List adalah tipe data yang paling serbaguna yang tersedia dalam bahasa Python, yang dapat ditulis sebagai daftar nilai yang dipisahkan koma (item) antara tanda kurung siku. Hal penting tentang daftar adalah item dalam list tidak boleh sama jenisnya. lalu bagaimana menggunakan list dan menampilkan isi list pada python?
 ```python
 'List'
 >>> print(list(range(1,10)))
