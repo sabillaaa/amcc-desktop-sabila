@@ -37,7 +37,17 @@ mean = mysum/length
 print(mean)
 """Mencari jumlah nilai dalam list"""
 student_grades = [9.1, 8.8, 10.0, 7.7, 6.8, 8.0, 10.0, 8.1, 10.0, 9.9]
-print(student_grades.count(10.0))
+print(student_grades.count(10.0)) #mencari nilai didalamnya
 student = {'sabil':8.0, 'yanuar':7.0,'peby':9.0}
-print(student.values())
-print(student.keys())
+print(student.values()) # menampilkan nilainya
+print(student.keys()) # menampilkan stringnya
+
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+print ("dict['Name']: ", dict['Name'])
+print ("dict['Class']: ", dict['Class'])
+
+import time; # Digunakan untuk meng-import modul time 
+ticks = time.time() 
+print ("Berjalan sejak 12:00am, January 1, 1970:", ticks)
+localtime = time.localtime(time.time()) 
+print ("Waktu lokal saat ini :", localtime)
