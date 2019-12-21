@@ -51,3 +51,5 @@ ticks = time.time()
 print ("Berjalan sejak 12:00am, January 1, 1970:", ticks)
 localtime = time.localtime(time.time())
 print ("Waktu lokal saat ini :", localtime)
+
+
